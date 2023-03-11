@@ -17,7 +17,7 @@
     </header>
 
     <article class="main-description">
-        <p>The <strong>Dice Simulator</strong> is a web application designed to allow you to create battles for use in the Warhammer Age of Sigmar game by Games Workshop Limited.</p>
+        <p>The <strong>Dice Simulator</strong> is a web application designed to allow you to roll dice for tabletop games.</p>
     </article>
 
     <!-- Input form for roll -->
