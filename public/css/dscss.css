@@ -1,0 +1,116 @@
+body {
+    font-family: "Minion Pro", serif;
+    font-size: 10px;
+    background-image: url(../img/background-big.jpg);
+}
+
+body:before {
+	content: '';
+	position: absolute;
+	top: -200px;
+	left: 0px;
+	width: 100%;
+	height: 200px;
+	box-shadow: 0px 0px 130px 130px rgba(10, 16, 17, 0.6);
+	z-index: -1;
+}
+
+.main-header {
+	font-size: 21px;
+	color: #fafafa;
+	text-shadow: 0px 0px 18px #000;
+	line-height: 1.2rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0px;
+}
+
+.main-header img {
+	vertical-align: middle;
+}
+
+.main-header .logo {
+	position: relative;
+	margin-right: 27px;
+}
+
+.main-header .logo:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 87px; height: 52px;
+	right: -10px; top: 22px;
+	background: url('../img/unofficial.png');
+}
+
+.main-description {
+	width: 860px;
+	margin: 0px auto;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+.form, .inner {
+	width: 50%;
+	background: transparent;
+}
+
+form label {
+	cursor: pointer;
+}
+
+.form {
+	padding: 20px;
+	margin: 50px 25%;
+	text-align: center;
+}
+
+.form > div {
+	font-size: 1rem;
+	margin-bottom: 4px;
+	border-top: 2px solid #fff;
+	padding-top: 4px;
+}
+
+.form > p {
+	text-align: center;
+}
+
+.form > div.no-line, .form > div:first-child {
+	border-top: 0px none;
+}
+
+.form > div input {
+	vertical-align: bottom;
+}
+
+.form-block thead td {
+	vertical-align: top;
+}
+
+.form > h3 {
+	margin: 0 25%;
+}
+
+.form > submit {
+	margin-left: 20px;
+}
+
+.allresults {
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.result {
+	border: 2px solid #000;
+	margin: 20px;
+	padding: 5px;
+	text-align: center;
+	min-width: 300px;
+}
